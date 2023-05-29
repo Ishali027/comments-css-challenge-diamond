@@ -1,13 +1,95 @@
 body {
-    background-color: hsl(218, 64%, 89%);
+    background-color: hsl(215, 35%, 72%);
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
+
 .main-container {
     border-radius: 5px;
     display: flex;
     gap: 10px;
     flex-direction: column;
     margin: 10px;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.styling {
+    background-color: rgb(231, 224, 217);
+    border-radius: 25px;
+    padding: 15px;
+
+
+}
+
+.btn {
+    width: 100px;
+    height: 3rem;
+    color: hsl(var(--clr-white));
+    /* background-color: hsl(var(--clr-modblue)); */
+    /* grid-area: btn; */
+    justify-self: right;
+    background-color: rgb(230, 209, 188);
+    color: white;
+    display: block;
+    border: 1px solid white;
+
+}
+
+.reply {
+    padding-right: 20px;
+}
+
+.edit {
+    padding-left: 150px;
+    color:blue;
+}
+.delete {
+    color: lightcoral;
+}
+
+.div-1 {
+    height: auto;
+    position: relative;
+}
+
+.div-3,
+.div-4 {
+    margin-left: 70px;
+    border-left: solid 4px white;
+}
+
+.box-1 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: left;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: left;
+    gap: 0.5rem;
+    float: right;
+    border-radius: 5px;
+    background-color: rgb(242, 238, 234);
+    align-items: center;
+    padding: 3px;
+    position: relative;
+}
+.box-2 {
+    width: auto;
+    float: auto;
+    padding: 1px;
+    margin: 1px;
+    text-justify: auto;
+}
+
+.box-3 {
+    width: auto;
+    float: auto;
+    padding: 3px;
+    margin: 5px
+    
 }
 
